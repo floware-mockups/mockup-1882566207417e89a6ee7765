@@ -1,0 +1,322 @@
+{
+  "title": "Monitoraggio dei consumi energetici",
+  "description": "Prototipo navigabile per confrontare i consumi mensili degli edifici pubblici inventati e registrare nuove letture.",
+  "accent": "emerald",
+  "pages": [
+    {
+      "id": "dashboard",
+      "title": "Panoramica energetica",
+      "description": "Andamento mensile dei consumi e confronto tra edifici. Il riepilogo dei valori mensili funge da grafico navigabile tramite le pagine dedicate.",
+      "metrics": [
+        {
+          "label": "Edifici monitorati",
+          "value": "4"
+        },
+        {
+          "label": "Consumo del mese",
+          "value": "12.480 kWh"
+        },
+        {
+          "label": "Variazione mensile",
+          "value": "−6,2%"
+        },
+        {
+          "label": "Letture da verificare",
+          "value": "2"
+        }
+      ],
+      "columns": [
+        "Mese",
+        "Lumo Civico",
+        "Vela Archivio",
+        "Nubi Biblioteca",
+        "Totale"
+      ],
+      "rows": [
+        [
+          "Gennaio",
+          "3.420 kWh",
+          "2.180 kWh",
+          "1.960 kWh",
+          "7.560 kWh"
+        ],
+        [
+          "Febbraio",
+          "3.180 kWh",
+          "2.060 kWh",
+          "1.840 kWh",
+          "7.080 kWh"
+        ],
+        [
+          "Marzo",
+          "3.560 kWh",
+          "2.240 kWh",
+          "2.020 kWh",
+          "7.820 kWh"
+        ],
+        [
+          "Aprile",
+          "3.280 kWh",
+          "2.120 kWh",
+          "1.910 kWh",
+          "7.310 kWh"
+        ],
+        [
+          "Maggio",
+          "3.040 kWh",
+          "1.980 kWh",
+          "1.780 kWh",
+          "6.800 kWh"
+        ],
+        [
+          "Giugno",
+          "3.660 kWh",
+          "2.360 kWh",
+          "2.140 kWh",
+          "8.160 kWh"
+        ],
+        [
+          "Luglio",
+          "4.120 kWh",
+          "2.680 kWh",
+          "2.420 kWh",
+          "9.220 kWh"
+        ],
+        [
+          "Agosto",
+          "3.780 kWh",
+          "2.410 kWh",
+          "2.180 kWh",
+          "8.370 kWh"
+        ],
+        [
+          "Settembre",
+          "3.340 kWh",
+          "2.160 kWh",
+          "1.940 kWh",
+          "7.440 kWh"
+        ],
+        [
+          "Ottobre",
+          "3.620 kWh",
+          "2.330 kWh",
+          "2.080 kWh",
+          "8.030 kWh"
+        ],
+        [
+          "Novembre",
+          "3.960 kWh",
+          "2.570 kWh",
+          "2.310 kWh",
+          "8.840 kWh"
+        ],
+        [
+          "Dicembre",
+          "4.280 kWh",
+          "2.770 kWh",
+          "2.490 kWh",
+          "9.540 kWh"
+        ]
+      ],
+      "form": []
+    },
+    {
+      "id": "edifici",
+      "title": "Edifici",
+      "description": "Elenco filtrabile degli immobili inventati inclusi nel monitoraggio, con consumi più recenti.",
+      "metrics": [
+        {
+          "label": "Edifici attivi",
+          "value": "4"
+        },
+        {
+          "label": "Ultimo aggiornamento",
+          "value": "12 dicembre"
+        }
+      ],
+      "columns": [
+        "Edificio",
+        "Organizzazione",
+        "Categoria",
+        "Ultimo consumo",
+        "Mese",
+        "Stato"
+      ],
+      "rows": [
+        [
+          "Lumo Civico",
+          "Ente Fittizio Lumo",
+          "Uffici",
+          "4.280 kWh",
+          "Dicembre",
+          "Attivo"
+        ],
+        [
+          "Vela Archivio",
+          "Fondazione Inventata Vela",
+          "Archivio",
+          "2.770 kWh",
+          "Dicembre",
+          "Attivo"
+        ],
+        [
+          "Nubi Biblioteca",
+          "Rete Immaginaria Nubi",
+          "Biblioteca",
+          "2.490 kWh",
+          "Dicembre",
+          "Attivo"
+        ],
+        [
+          "Riva Officina",
+          "Consorzio Fantasia Riva",
+          "Servizi",
+          "2.940 kWh",
+          "Dicembre",
+          "Attivo"
+        ]
+      ],
+      "form": [
+        "Edificio",
+        "Organizzazione",
+        "Categoria",
+        "Ultimo consumo",
+        "Mese",
+        "Stato"
+      ]
+    },
+    {
+      "id": "letture",
+      "title": "Letture mensili",
+      "description": "Consulta e filtra le letture per edificio, mese e stato; registra nuove rilevazioni di consumo.",
+      "metrics": [
+        {
+          "label": "Letture registrate",
+          "value": "12"
+        },
+        {
+          "label": "Da verificare",
+          "value": "2"
+        },
+        {
+          "label": "Consumo medio",
+          "value": "2.850 kWh"
+        }
+      ],
+      "columns": [
+        "Edificio",
+        "Organizzazione",
+        "Categoria",
+        "Ultimo consumo",
+        "Mese",
+        "Stato"
+      ],
+      "rows": [
+        [
+          "Lumo Civico",
+          "Ente Fittizio Lumo",
+          "Uffici",
+          "4.280 kWh",
+          "Dicembre",
+          "Verificata"
+        ],
+        [
+          "Vela Archivio",
+          "Fondazione Inventata Vela",
+          "Archivio",
+          "2.770 kWh",
+          "Dicembre",
+          "Verificata"
+        ],
+        [
+          "Nubi Biblioteca",
+          "Rete Immaginaria Nubi",
+          "Biblioteca",
+          "2.490 kWh",
+          "Dicembre",
+          "Da verificare"
+        ],
+        [
+          "Riva Officina",
+          "Consorzio Fantasia Riva",
+          "Servizi",
+          "2.940 kWh",
+          "Dicembre",
+          "Verificata"
+        ],
+        [
+          "Lumo Civico",
+          "Ente Fittizio Lumo",
+          "Uffici",
+          "3.960 kWh",
+          "Novembre",
+          "Verificata"
+        ],
+        [
+          "Vela Archivio",
+          "Fondazione Inventata Vela",
+          "Archivio",
+          "2.570 kWh",
+          "Novembre",
+          "Verificata"
+        ],
+        [
+          "Nubi Biblioteca",
+          "Rete Immaginaria Nubi",
+          "Biblioteca",
+          "2.310 kWh",
+          "Novembre",
+          "Da verificare"
+        ],
+        [
+          "Riva Officina",
+          "Consorzio Fantasia Riva",
+          "Servizi",
+          "2.710 kWh",
+          "Novembre",
+          "Verificata"
+        ],
+        [
+          "Lumo Civico",
+          "Ente Fittizio Lumo",
+          "Uffici",
+          "3.620 kWh",
+          "Ottobre",
+          "Verificata"
+        ],
+        [
+          "Vela Archivio",
+          "Fondazione Inventata Vela",
+          "Archivio",
+          "2.330 kWh",
+          "Ottobre",
+          "Verificata"
+        ],
+        [
+          "Nubi Biblioteca",
+          "Rete Immaginaria Nubi",
+          "Biblioteca",
+          "2.080 kWh",
+          "Ottobre",
+          "Verificata"
+        ],
+        [
+          "Riva Officina",
+          "Consorzio Fantasia Riva",
+          "Servizi",
+          "2.460 kWh",
+          "Ottobre",
+          "Verificata"
+        ]
+      ],
+      "form": [
+        "Edificio",
+        "Organizzazione",
+        "Categoria",
+        "Ultimo consumo",
+        "Mese",
+        "Stato"
+      ]
+    }
+  ]
+}
